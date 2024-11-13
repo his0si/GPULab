@@ -54,7 +54,7 @@ int main(){
     ckGpu->clockReset();
 
     // 메인 루프 10번 실행
-    for(unsigned i = 0; i < 1; i++){
+    for(unsigned i = 0; i < 10; i++){
         // CPU 추론 시작 시간 측정
         ckCpu->clockResume();
         // 서브 루프 1000번 실행
